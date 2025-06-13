@@ -19,6 +19,22 @@ int main() {
  float pib2;
  int pontos_turisticos2;
 
+  // Leitura dos dados da Carta 1
+ printf("Cadastro da Carta 1:\n");
+ printf("Estado (A a H): ");
+ scanf(" %c", &estado1);
+ printf("Código (ex: A01): ");
+ scanf("%3s", codigo1);
+ printf("Nome da Cidade: ");
+ scanf(" %49[^\n]", cidade1);
+ printf("População: ");
+ scanf("%d", &populacao1);
+ printf("Área (em km²): ");
+ scanf("%f", &area1);
+ printf("PIB: ");
+ scanf("%f", &pib1);
+ printf("Número de Pontos Turísticos: ");
+ scanf("%d", &pontos_turisticos1);
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
