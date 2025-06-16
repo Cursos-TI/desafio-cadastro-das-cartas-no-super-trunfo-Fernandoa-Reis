@@ -76,3 +76,8 @@ int main() {
   // Cálculo da densidade demográfica
     densidade1 = (area1 > 0) ? (float)populacao1 / area1 : 0;
     densidade2 = (area2 > 0) ? (float)populacao2 / area2 : 0;
+
+    // Exibição resumida das cartas
+    printf("\n=== CARTAS CADASTRADAS ===\n");
+    printf("Carta 1: %s (%s)\n", cidade1, codigo1);
+    printf("Carta 2: %s (%s)\n\n", cidade2, codigo2);
