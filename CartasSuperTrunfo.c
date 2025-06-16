@@ -81,3 +81,21 @@ int main() {
     printf("\n=== CARTAS CADASTRADAS ===\n");
     printf("Carta 1: %s (%s)\n", cidade1, codigo1);
     printf("Carta 2: %s (%s)\n\n", cidade2, codigo2);
+
+    // Menu interativo
+    int opcao;
+    do {
+        printf("==== MENU DE ATRIBUTOS ====\n");
+        printf("1. População\n");
+        printf("2. Área\n");
+        printf("3. PIB\n");
+        printf("4. Pontos Turísticos\n");
+        printf("5. Densidade Demográfica\n");
+        printf("0. Sair\n");
+        printf("Escolha o atributo para comparação: ");
+        scanf("%d", &opcao);
+
+        if (opcao == 0) {
+            printf("Jogo encerrado.\n");
+            return 0;
+        }
