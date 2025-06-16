@@ -73,5 +73,6 @@ int main() {
  printf("PIB: %.2f bilhões de reais\n", pib2);
  printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
 
-  return 0;
-}
+  // Cálculo da densidade demográfica
+    densidade1 = (area1 > 0) ? (float)populacao1 / area1 : 0;
+    densidade2 = (area2 > 0) ? (float)populacao2 / area2 : 0;
